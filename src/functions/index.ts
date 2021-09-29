@@ -1,1 +1,1 @@
-export { default as CreateCampaign } from './CreateContact';
+export * from './CreateContact';

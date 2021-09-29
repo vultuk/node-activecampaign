@@ -2,7 +2,7 @@ import Contact from '../types/contact';
 import Credentials from '../types/credentials';
 import Send from './Send';
 
-const CreateContact =
+export const CreateContact =
   (credentials: Credentials) => (fieldValues?: { field: string; value: string }[]) => (contact: Contact) => {
     const newLead: any = {
       contact: {
