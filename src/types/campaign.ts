@@ -1,6 +1,6 @@
 import Links from './links';
 
-type Campaign = {
+export type Campaign = {
   type: string;
   userid: string;
   segmentid: string;

@@ -1,4 +1,4 @@
-type Credentials = {
+export type Credentials = {
   domain: string;
   token: string;
 };
